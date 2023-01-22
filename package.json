@@ -19,7 +19,6 @@
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^4.0.1",
     "gulp-file-include": "^2.3.0",
-    "gulp-responsive": "^3.0.1",
     "gulp-responsive-imgzz": "0.0.6",
     "gulp-sass": "^5.1.0",
     "gulp-sharp-responsive": "^0.4.0",
