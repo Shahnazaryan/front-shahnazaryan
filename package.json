@@ -1,0 +1,29 @@
+{
+  "name": "gulp-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "dev": "gulp serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "del": "6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-responsive": "^3.0.1",
+    "gulp-responsive-imgzz": "0.0.6",
+    "gulp-sass": "^5.1.0",
+    "gulp-sharp-responsive": "^0.4.0",
+    "gulp-uglify-es": "^3.0.0",
+    "sass": "^1.57.1"
+  }
+}

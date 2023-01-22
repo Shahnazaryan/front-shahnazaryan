@@ -1,0 +1,31 @@
+body{
+    font-family: 'Roboto';
+}
+h1,.h1{
+    font-size: $h1-font-size;
+}
+h2,.h2{
+    font-size: $h2-font-size;
+}
+h3,.h3{
+    font-size: $h3-font-size;
+}
+
+body{
+    & >.overlay {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255 255 255 / 60%);
+        z-index: 5;
+        display: none;
+        top: 0;
+        
+    }
+    &.active{
+        overflow: hidden;
+        & >.overlay {
+            display: block; 
+        }
+    }
+}

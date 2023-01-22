@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.min.css">
+    <title>test Document</title>
+</head>
+<body>
+    <!-- Header -->
+    <section id="brand" class="container container-fluid">
+    <div class="row">
+        <div class="menu-toggler d-md-none">
+            <label for="hamburger" class="open-menu"></label>
+        </div>
+        <!-- Logo -->
+        <div class="logo text-center"><a href="/"><img src="images/Logo.png" alt="Logo" srcset="images/Logo.png 1x, images/Logo-md.png 768w, images/Logo-sm.png 640w"></a></div>
+        
+        <button class="search__toggle" aria-label="Close search">
+            Search
+        </button>
+    </div>
+    
+</section>
+<section id="header">
+    <input type="checkbox" id="hamburger" aria-label="menu button">
+    <!-- Nav -->
+    <div class="main-menu">
+        <div class="logo d-md-none">
+            <a href="/"><img src="images/Logo.png" alt="Logo" srcset="images/Logo.png 1x, images/Logo-md.png 768w, images/Logo-sm.png 640w"></a>
+            <label for="hamburger" class="close"></label>
+        </div>
+         
+        <nav id="nav">
+            <ul class="menu-items">
+                <li class="current">
+                    <a href="#" class="arrow has-child">Demos</a>
+                    <ul class="dropdown">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="hero.html">Hero Section</a></li>
+                    </ul>
+                </li>
+                <li> 
+                    <a href="#" class="arrow has-child">Post</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Post Header</a></li>
+                        <li><a href="#">Post Layout</a></li>
+                        <li><a href="#">Share Buttons</a></li>
+                        <li><a href="#">Gallery Post</a></li>
+                        <li><a href="#">Video Post</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="arrow has-child">Features</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Post Header</a></li>
+                        <li><a href="#">Post Layout</a></li>
+                        <li><a href="#">Share Buttons</a></li>
+                        <li><a href="#">Gallery Post</a></li>
+                        <li><a href="#">Video Post</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="arrow has-child">Categories</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Style</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Music</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="arrow has-child">Shop</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Style</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Music</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="arrow">Buy Now</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="search container container-fluid">
+        <form class="search__form" action>
+            <input type="search" name id="search" placeholder>
+          </form>
+    </div>
+    
+</section>  
+    
+
+    
+    <!-- Hero section -->
+    <section id="hero-section">
+    <div class="container container-fluid">
+        <div class="row">
+            <div class="card" style="background-image: url(images/hero/hero-1.png);">
+                <div class="overlay-first">
+                    <div class="collection text-animate">
+                        <div class="text-effect effect revealTextDown">
+                            <p>
+                                <span class="text-wrapper">
+                                    <span class="small">new collection</span>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-effect effect revealTextDown">
+                        <p>
+                            <span class="text-wrapper">
+                                <span>Eget Tortor,</span>
+                            </span>
+                            <span class="text-wrapper">
+                                <span>Mollis Habitasse.</span>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="overlay">
+                    <div class="collection">
+                        <div class="text-effect effect revealTextUp">
+                            <p>
+                                <span class="text-wrapper">
+                                    <span class="small">sale up to 50%</span>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="text-effect effect revealTextUp">
+                            <p>
+                                <span class="text-wrapper">
+                                    <span>Eget Tortor,</span>
+                                </span>
+                                <span class="text-wrapper">
+                                    <span>Mollis Habitasse.</span>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="featured-img text-effect effect revealImageUp">
+                        <p>
+                            <span class="text-wrapper">
+                                <span>
+                                    <img src="images/hero/hero-1.png" alt srcset="images/hero/hero-1.png 1x, images/hero/hero-1-md.png 768w, images/hero/hero-1-sm.png 640w">
+                                </span>
+                            </span>
+                        </p>
+                    </div>
+                    <div>
+                        <div class="description">
+                            <p>Nunc venenatis adipiscing mauris lorem non risus molestie ut. Dolor ex. Cras sodales
+                                efficitur nec </p>
+                        </div>
+                        <div class="shop-btn">
+                            <a href="#" class="shop-all">
+                                <span>Shop All</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="background-image: url(images/hero/hero-2.png);">
+                <div class="overlay-first">
+                    <div class="collection text-animate">
+                        <div class="text-effect effect revealTextDown">
+                            <p>
+                                <span class="text-wrapper">
+                                    <span class="small">new collection</span>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-effect effect revealTextDown">
+                        <p>
+                            <span class="text-wrapper">
+                                <span>Pulvinar Amet Morbi </span>
+                            </span>
+                            <span class="text-wrapper">
+                                <span>Efficitur Justo</span>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="overlay">
+                    <div class="collection">
+                        <div class="text-effect effect revealTextUp">
+                            <p>
+                                <span class="text-wrapper">
+                                    <span class="small">sale up to 50%</span>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="text-effect effect revealTextUp">
+                            <p>
+                                <span class="text-wrapper">
+                                    <span>Pulvinar Amet Morbi </span>
+                                </span>
+                                <span class="text-wrapper">
+                                    <span>Efficitur Justo</span>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="featured-img text-effect effect revealImageUp">
+                        <p>
+                            <span class="text-wrapper">
+                                <span>
+                                    <img src="images/hero/hero-2.png" alt srcset="images/hero/hero-2.png 1x, images/hero/hero-2-md.png 768w, images/hero/hero-2-sm.png 640w">
+                                </span>
+                            </span>
+                        </p>
+
+                    </div>
+                    <div>
+                        <div class="description">
+                            <p>Nunc venenatis adipiscing mauris lorem non risus molestie ut. Dolor ex. Cras sodales
+                                efficitur nec </p>
+                        </div>
+                        <div class="shop-btn">
+                            <a href="#" class="shop-all">
+                                <span>Shop All</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="background-image: url(images/hero/hero-3.png);">
+                <div class="overlay-first">
+                    <div class="collection text-animate">
+                        <div class="text-effect effect revealTextDown">
+                            <p>
+                                <span class="text-wrapper">
+                                    <span class="small">new collection</span>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-effect effect revealTextDown">
+                        <p>
+                            <span class="text-wrapper">
+                                <span>Molestie Cursus</span>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="overlay">
+                    <div class="collection">
+                        <div class="text-effect effect revealTextUp">
+                            <p>
+                                <span class="text-wrapper">
+                                    <span class="small">sale up to 50%</span>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="text-effect effect revealTextUp">
+                            <p>
+                                <span class="text-wrapper">
+                                    <span>Molestie Cursus</span>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="featured-img text-effect effect revealImageUp">
+                        <p>
+                            <span class="text-wrapper">
+                                <span>
+                                    <img src="images/hero/hero-3.png" alt srcset="images/hero/hero-3.png 1x, images/hero/hero-3-md.png 768w, images/hero/hero-3-sm.png 640w">
+                                </span>
+                            </span>
+                        </p>
+
+                    </div>
+                    <div>
+                        <div class="description">
+                            <p>Nunc venenatis adipiscing mauris lorem non risus molestie ut. Dolor ex. Cras sodales
+                                efficitur nec </p>
+                        </div>
+                        <div class="shop-btn">
+                            <a href="#" class="shop-all">
+                                <span>Shop All</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+
+    <div class="overlay"></div>
+    <script defer src="js/main.min.js"></script>
+ </body>
+</html> 

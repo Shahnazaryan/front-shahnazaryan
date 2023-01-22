@@ -1,0 +1,69 @@
+#post-items{
+    .post-item{
+        padding-bottom: 3rem;
+        .image{
+            display: block;
+            width: 100%;
+            overflow: hidden;
+            img{
+                width: 100%;
+                transition: all .2s ease-in-out;
+            }
+        }
+        &:hover{
+            img{
+                transform: scale(1.1);
+            }
+        }
+        .entry-header{
+            .category{
+                color:$red;
+                margin: rem(16px) 0;
+                font-weight: 700;
+                font-size: rem(13px);
+                line-height: rem(13px);
+                display: block;
+            }
+            .post-title{
+                line-height: rem(30px);
+                a{
+                    color: initial;
+                    text-decoration: none;
+                }
+            }
+            .entry-meta{
+                padding: 1rem 0;
+                .post-info {
+                    display: flex;
+                    width: 100%;
+                    .post-author {
+                        font-size: rem(12px);
+                        font-weight: 500;
+                    }
+                    .post-date-views {
+                        display: flex;
+                        align-items: center;
+                        color: $secondary-scheme;
+                        font-size: rem(12px);
+                        line-height: rem(12px);
+                        font-weight: 400;
+                        .seperator{
+                            display: block;
+                            margin: 5px;
+                            background-color: #d7d7d7;
+                            border-radius: 50%;
+                            width: 3px;
+                            height: 3px;
+                        }
+                    }
+                }
+            }
+        }
+        .entry-content{
+            font-weight: 400;
+            color: $secondary-scheme;
+            font-size: rem(14px);
+            line-height: rem(20px);
+        }
+    }
+}

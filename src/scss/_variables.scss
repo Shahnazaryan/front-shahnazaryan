@@ -1,0 +1,43 @@
+/*
+ * project specific variables
+ */
+
+:root{
+  --primary-scheme: #000000;
+  --secondary-color : #929292;
+}
+
+$primary-scheme: var(--primary-scheme);
+$secondary-scheme: var(--secondary-color);
+
+$white: #fff;
+$red: #EB0028;
+$line: #E9E9E9;
+$subtext: #747474;
+$dark: #262626;
+
+
+// Link
+$link-color: $secondary-scheme;
+$link-hover-color: $link-color;
+$link-decoration: none;
+
+
+//
+// Headings
+//
+$h1-font-size: 2rem;        // 32px
+$h1-font-size-m: 1.75rem;   // 28px
+$h2-font-size: 1.5rem;      // 24px
+$h2-font-size-m: 1.25rem;   // 20px
+$h3-font-size: 1rem;        // 16px
+
+$html-font-size: 16px;
+
+// connvert px to rem
+@function stripUnit($value) {
+    @return $value / ($value * 0 + 1);
+}
+@function rem($pxValue) {
+    @return #{stripUnit($pxValue) / stripUnit($html-font-size)}rem;
+}
